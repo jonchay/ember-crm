@@ -3,5 +3,4 @@
 App.Router.map ()->
   location: 'auto'
   rootURL: '/'
-  # @resource('posts')
-
+  @resource 'leads', path: '/'
